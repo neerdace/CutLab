@@ -1,0 +1,13 @@
+{
+  "name": "cutlab-api",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-16",
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "cutlab-db",
+      "database_id": "39181e9a-a400-45ea-b7fa-4ddd6d37cd1d"
+    }
+  ]
+}
