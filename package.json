@@ -1,0 +1,23 @@
+{
+  "name": "cutlab-app",
+  "version": "1.0.0",
+  "description": "CutLab — video editor asset shop, software-organized tutorial system, real auth, SQLite database, and admin panel.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node --experimental-sqlite server.js",
+    "seed": "node --experimental-sqlite db/init.js --reseed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
